@@ -10,5 +10,3 @@ post '/' do
   @normalized = PhoneNumber.new(@number).normalized
   slim :index
 end
-
-
